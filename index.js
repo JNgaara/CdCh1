@@ -1,3 +1,4 @@
+// QUESTION 1 FUNCTION
 function studentGrade(studentMarks) {
     let grade = "";
     var output = '';
@@ -17,7 +18,16 @@ function studentGrade(studentMarks) {
 
     console.log(`Grade student attained is ${grade} .`);
 }
+// TESTING QUESTION 1
+studentGrade(70);
+studentGrade(80);
+studentGrade(60);
+studentGrade(50);
+studentGrade(40);
+studentGrade(39);
 
+//----------------------------------------------------------------------------------------------------------
+//QUESTION 2 FUNCTION
 var licensePoints= 0;
 var speedLimit = 70;
 var message ='';
@@ -82,13 +92,8 @@ function speedDetector(carSpeed){
 
     return message;
 }
-studentGrade(70);
-studentGrade(80);
-studentGrade(60);
-studentGrade(50);
-studentGrade(40);
-studentGrade(39);
 
+//TESTING QUESTION 2 FUNCTION
 speedDetector(70);  speedDetector(75);  speedDetector(80);  
 speedDetector(85);  speedDetector(90);  speedDetector(95);  
 speedDetector(100); speedDetector(105); speedDetector(110); 
