@@ -1,7 +1,7 @@
 // QUESTION 1 FUNCTION
 function studentGrade(studentMarks) {
     let grade = "";
-    var output = '';
+    //var output = '';
 
     if (studentMarks>79) {
         grade= "A";
@@ -41,7 +41,6 @@ function speedDetector(carSpeed){
     licensePoints=0;
     if (carSpeed<=70) {
         message = `Ok`;    
-        console.log(`${message} `);
     }else if(carSpeed>70&&carSpeed<=75){
         licensePoints+= 1;
         message = `Points: ${licensePoints} `
@@ -82,7 +81,7 @@ function speedDetector(carSpeed){
         licensePoints+= 10;
         message = `Points: ${licensePoints} `
 
-    }else if(carSpeed<=speedLimit+55 &&carSpeed>=speedLimit+50){
+    }else if(carSpeed<speedLimit+60 &&carSpeed>=speedLimit+50){
         licensePoints+= 11;
         message = `Points: ${licensePoints} `
 
@@ -103,4 +102,4 @@ speedDetector(70);  speedDetector(75);  speedDetector(80);
 speedDetector(85);  speedDetector(90);  speedDetector(95);  
 speedDetector(100); speedDetector(105); speedDetector(110); 
 speedDetector(115); speedDetector(120); speedDetector(125);     
-speedDetector(130);
+speedDetector(129);     speedDetector(130);
