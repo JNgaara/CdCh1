@@ -27,7 +27,6 @@ studentGrade(60);
 studentGrade(50);   
 studentGrade(40);   
 studentGrade(39);
-// studentGrade(79);
 studentGrade(69);
 studentGrade(59);
 studentGrade(49);
