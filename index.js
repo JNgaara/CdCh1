@@ -5,27 +5,33 @@ function studentGrade(studentMarks) {
 
     if (studentMarks>79) {
         grade= "A";
-    }else if(studentMarks>=60&&studentMarks<=79){
+    }else if(studentMarks>=70&&studentMarks<=79){
         grade= "B";
-    }else if(studentMarks>=49&&studentMarks<=50){
-        grade= "C";
+    }else if(studentMarks>=60&&studentMarks<=69){
+        grade= "c";
+    }else if(studentMarks>=50&&studentMarks<=59){
+        grade= "D";
     }
     else if(studentMarks>=40&&studentMarks<=49){
-        grade= "D";
-    }else if(studentMarks<40){
         grade= "E";
+    }else if(studentMarks<40){
+        grade= "F";
     }
 
     console.log(`Grade student attained is ${grade} .`);
 }
 // TESTING QUESTION 1
-studentGrade(70);
-studentGrade(80);
-studentGrade(60);
-studentGrade(50);
-studentGrade(40);
+studentGrade(70);   
+studentGrade(80);   
+studentGrade(60);   
+studentGrade(50);   
+studentGrade(40);   
 studentGrade(39);
-
+// studentGrade(79);
+studentGrade(69);
+studentGrade(59);
+studentGrade(49);
+studentGrade(20);
 //----------------------------------------------------------------------------------------------------------
 //QUESTION 2 FUNCTION
 var licensePoints= 0;
